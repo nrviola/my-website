@@ -1,0 +1,76 @@
+/* Example CSS for hobby image sizing */
+.hobby-image {
+    width: 200px; /* Set the width of the image */
+    height: 150px; /* Set the height of the image */
+    object-fit: cover; /* Optional: Use object-fit to control how the image fits within its container */
+  }
+  
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffffc4; /* white */
+  color: #333333; 
+  border-top: 2px solid #333333;
+  margin-top: 0;
+  padding-top: 0;
+  margin: 0;
+}
+/*
+nav {
+  background-color: #00528c;
+  color: #ffffff;
+}
+*/
+
+.my-hr {
+  border-color: #013293;
+}
+
+.my-list{
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px; /* Height of the footer */
+}
+
+.footer,
+.push {
+  height: 50px; /* Height of the footer */
+}
+
+
+.footer {
+  background-color: #013293;
+  color: #ffffff; 
+  text-align: center;
+  border-top: 2px solid #333333;
+  border-bottom: 2px solid #333333;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.about {
+  font-size: 20px;
+}
+
+/* Style adjustments for mobile devices */
+@media (max-width: 767px) {
+  .footer {
+    position: relative;
+    margin-top: -50px; /* Negative value of footer height */
+    height: auto;
+  }
+}
+
+.list-unstyled li {
+  margin-bottom: 10px;
+}
+
